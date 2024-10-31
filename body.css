@@ -1,0 +1,109 @@
+/* Reset and Base Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1b1f3a, #2c3e50);
+    color: #eceff4;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #00e6ff;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Qualities Section */
+.qualities {
+    width: 100%;
+    max-width: 2000px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.qualities h2 {
+    font-size: 2em;
+    margin-bottom: 100px;
+    justify-content: center;
+    color: #00e6ff;
+}
+
+.quality-item {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.quality-item img {
+    max-width: 800px; /* Adjusts the size of the images */
+    height: auto;
+}
+
+/* Image Section */
+.image-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.image-section img {
+    max-width: 500px; /* Adjusts the size of the profile image */
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Speech Section */
+.speech-section {
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 100px;
+}
+
+.speech-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #00e6ff;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #005EB8; /* Tata Blue */
+    color: white;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .quality-item {
+        width: 45%; /* Adjust the width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .quality-item {
+        width: 90%; /* Full width on mobile */
+    }
+}
